@@ -1,0 +1,26 @@
+.payment{
+    background-color: white;
+}
+.payment_container h1{
+    text-align: center;
+    padding: 10px;
+    font-family: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgrey;
+}
+.payment_container h1 a{
+    text-decoration: none;
+}
+.payment-section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+.payment-title{
+    flex: 0.2;
+    /* it means take up 20% */
+}
+.payment-address, .payment-items, .payment-details{
+    flex: 0.8;
+}
